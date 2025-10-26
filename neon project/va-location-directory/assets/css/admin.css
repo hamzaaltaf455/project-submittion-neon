@@ -1,0 +1,18 @@
+/**
+ * VA Location Directory - Admin Styles
+ * 
+ * @package VA_Location_Directory
+ * @since 1.0.0
+ */
+
+/* Location post type admin columns */
+.column-city,
+.column-state {
+  width: 15%;
+}
+
+.column-services {
+  width: 25%;
+}
+
+/* Meta box styling is inline in class-meta-boxes.php */

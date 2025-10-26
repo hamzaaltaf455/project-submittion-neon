@@ -1,0 +1,23 @@
+{
+  "name": "vibrant-landing-page",
+  "version": "1.0.0",
+  "description": "Pixel-perfect responsive landing page with dark mode and accessibility features",
+  "main": "index.html",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "echo 'Development: Open index.html in browser' && exit 0",
+    "clean": "node -e \"const fs=require('fs');const path=require('path');const dir='dist';if(fs.existsSync(dir)){fs.rmSync(dir,{recursive:true});console.log('Cleaned dist directory');}\"",
+    "prebuild": "npm run clean"
+  },
+  "keywords": [
+    "landing-page",
+    "responsive",
+    "dark-mode",
+    "accessibility",
+    "vanilla-js"
+  ],
+  "author": "GitHub Copilot",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
